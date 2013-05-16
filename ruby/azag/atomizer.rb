@@ -6,24 +6,50 @@
 #hlength int(32),breadth int(32),height int(32),temperature int(32),humidity int(32),wind_speed int(32),wind_direction int(32),barometric_pressure int(32),vulnerability int(32),opacity int(32),penetrability int(32),center int(32),atom_id int(32),tile_id int(32),date date
 #Fields tobe created:
 #hlength,breadth,height,temperature,humidity,wind_speed,wind_direction,barometric_pressure,vulnerability,opacity,penetrability,center,atom_id,tile_id,date
-def gen_atmosphere
- #create pressure, temperature
+
+#The three maximal dimensions of the gamescape
+gamescape_width = 100
+gamescape_length = 100
+gamescape_max_height = 10
+
+def generate_center
+	#generate the center of the atom 
+	#ensuring no two atoms occupy the same space :-)
 end
-def gen_dimensions
- #create length,breadth, height
+
+def generate_atmosphere
+	#create pressure, temperature
 end
-def gen_wind
- #create wind direction and speed
+
+def generate_dimensions
+	#create length,breadth, height
 end
-def gen_atom_id
- #generate atom_id
+
+def generate_wind
+	#create wind direction and speed
 end
-def gen_vulnerability
- end
-def gen_penetrability
+
+def generate_atom_id
+	#generate a unique atom_id
+	#using an existing register of pre-existing atom IDs
+	#as a reference 
 end
-def gen_opacity
+
+def generate_vulnerability
+	#what is "vulnerability" in the context
+	#of the game plane
 end
+
+def generate_penetrability
+	#what is penetrability in the context 
+	#of the game plane ?
+end
+
+def generate_opacity
+	#what is opacity in the
+	#context of the game plane ?
+end
+
 def allocate_tile
  #place each atom in a predefined tile
 end
