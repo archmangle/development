@@ -1,0 +1,208 @@
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 2.6.32-5-xen-amd64 (Debian 2.6.32-31) (ben@decadent.org.uk) (gcc version 4.3.5 (Debian 4.3.5-4) ) #1 SMP Tue Mar 8 00:01:30 UTC 2011
+[    0.000000] Command line: root=/dev/xvda2 ro
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] ACPI in unprivileged domain disabled
+[    0.000000] released 0 pages of unused memory
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000]  Xen: 0000000000000000 - 00000000000a0000 (usable)
+[    0.000000]  Xen: 00000000000a0000 - 0000000000100000 (reserved)
+[    0.000000]  Xen: 0000000000100000 - 000000006a400000 (usable)
+[    0.000000] DMI not present or invalid.
+[    0.000000] last_pfn = 0x6a400 max_arch_pfn = 0x400000000
+[    0.000000] initial memory mapped : 0 - 20000000
+[    0.000000] init_memory_mapping: 0000000000000000-000000006a400000
+[    0.000000]  0000000000 - 006a400000 page 4k
+[    0.000000] kernel direct mapping tables up to 6a400000 @ 100000-455000
+[    0.000000] RAMDISK: 016ba000 - 02fda000
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at 0000000000000000-000000006a400000
+[    0.000000] Bootmem setup node 0 0000000000000000-000000006a400000
+[    0.000000]   NODE_DATA [0000000000008000 - 000000000000ffff]
+[    0.000000]   bootmap [0000000000010000 -  000000000001d47f] pages e
+[    0.000000] (7 early reservations) ==> bootmem [0000000000 - 006a400000]
+[    0.000000]   #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+[    0.000000]   #1 [000332f000 - 000334c000]   XEN PAGETABLES ==> [000332f000 - 000334c000]
+[    0.000000]   #2 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+[    0.000000]   #3 [0001000000 - 00016999d4]    TEXT DATA BSS ==> [0001000000 - 00016999d4]
+[    0.000000]   #4 [00016ba000 - 0002fda000]          RAMDISK ==> [00016ba000 - 0002fda000]
+[    0.000000]   #5 [0002fda000 - 000332f000]   XEN START INFO ==> [0002fda000 - 000332f000]
+[    0.000000]   #6 [0000100000 - 0000435000]          PGTABLE ==> [0000100000 - 0000435000]
+[    0.000000] Zone PFN ranges:
+[    0.000000]   DMA      0x00000000 -> 0x00001000
+[    0.000000]   DMA32    0x00001000 -> 0x00100000
+[    0.000000]   Normal   0x00100000 -> 0x00100000
+[    0.000000] Movable zone start PFN for each node
+[    0.000000] early_node_map[2] active PFN ranges
+[    0.000000]     0: 0x00000000 -> 0x000000a0
+[    0.000000]     0: 0x00000100 -> 0x0006a400
+[    0.000000] On node 0 totalpages: 435104
+[    0.000000]   DMA zone: 56 pages used for memmap
+[    0.000000]   DMA zone: 824 pages reserved
+[    0.000000]   DMA zone: 3120 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 5894 pages used for memmap
+[    0.000000]   DMA32 zone: 425210 pages, LIFO batch:31
+[    0.000000] SFI: Simple Firmware Interface v0.7 http://simplefirmware.org
+[    0.000000] SMP: Allowing 1 CPUs, 0 hotplug CPUs
+[    0.000000] No local APIC present
+[    0.000000] APIC: disable apic facility
+[    0.000000] nr_irqs_gsi: 16
+[    0.000000] PM: Registered nosave memory: 00000000000a0000 - 0000000000100000
+[    0.000000] Allocating PCI resources starting at 6a400000 (gap: 6a400000:95c00000)
+[    0.000000] Booting paravirtualized kernel on Xen
+[    0.000000] Xen version: 3.4.3-2.6.18 (preserve-AD)
+[    0.000000] NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+[    0.000000] PERCPU: Embedded 30 pages/cpu @ffff880003382000 s90328 r8192 d24360 u122880
+[    0.000000] pcpu-alloc: s90328 r8192 d24360 u122880 alloc=30*4096
+[    0.000000] pcpu-alloc: [0] 0 
+[33569532.526327] trying to map vcpu_info 0 at ffff88000338d020, mfn 2c15a4, offset 32
+[33569532.526331] cpu 0 using vcpu_info at ffff88000338d020
+[33569532.526332] Xen: using vcpu_info placement
+[33569532.526339] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 428330
+[33569532.526342] Policy zone: DMA32
+[33569532.526345] Kernel command line: root=/dev/xvda2 ro
+[33569532.526361] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[33569532.526754] Initializing CPU#0
+[33569532.526780] Checking aperture...
+[33569532.533809] No AGP bridge found
+[33569532.533879] Calgary: detecting Calgary via BIOS EBDA area
+[33569532.533882] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[33569532.544135] Memory: 1675528k/1740800k available (3148k kernel code, 384k absent, 64888k reserved, 1907k data, 604k init)
+[33569532.544195] SLUB: Genslabs=14, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[33569532.544222] Hierarchical RCU implementation.
+[33569532.544232] NR_IRQS:4352 nr_irqs:512
+[33569532.544352] Console: colour dummy device 80x25
+[33569532.544432] console [tty0] enabled
+[33569532.544610] console [hvc0] enabled
+[33569532.544642] Xen: using vcpuop timer interface
+[33569532.544646] installing Xen timer for CPU 0
+[33569532.544660]   alloc irq_desc for 511 on node -1
+[33569532.544662]   alloc kstat_irqs on node -1
+[33569532.544687] Detected 2266.746 MHz processor.
+[33569532.544697] Calibrating delay loop (skipped), value calculated using timer frequency.. 4533.49 BogoMIPS (lpj=9066984)
+[33569532.544724] Security Framework initialized
+[33569532.544732] SELinux:  Disabled at boot.
+[33569532.545101] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[33569532.545808] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[33569532.546079] Mount-cache hash table entries: 256
+[33569532.546246] Initializing cgroup subsys ns
+[33569532.546255] Initializing cgroup subsys cpuacct
+[33569532.546261] Initializing cgroup subsys devices
+[33569532.546267] Initializing cgroup subsys freezer
+[33569532.546271] Initializing cgroup subsys net_cls
+[33569532.546314] CPU: L1 I cache: 32K, L1 D cache: 32K
+[33569532.546321] CPU: L2 cache: 256K
+[33569532.546324] CPU: L3 cache: 4096K
+[33569532.546330] CPU 0/0x4 -> Node 0
+[33569532.546335] CPU: Unsupported number of siblings 16
+[33569532.546342] Performance Events: unsupported p6 CPU model 26 no PMU driver, software events only.
+[33569532.546362] SMP alternatives: switching to UP code
+[33569532.574371] Freeing SMP alternatives: 28k freed
+[33569532.909994]   alloc irq_desc for 510 on node -1
+[33569532.909998]   alloc kstat_irqs on node -1
+[33569532.910009]   alloc irq_desc for 509 on node -1
+[33569532.910011]   alloc kstat_irqs on node -1
+[33569532.910017]   alloc irq_desc for 508 on node -1
+[33569532.910019]   alloc kstat_irqs on node -1
+[33569532.910024]   alloc irq_desc for 507 on node -1
+[33569532.910026]   alloc kstat_irqs on node -1
+[33569532.910141] Brought up 1 CPUs
+[33569532.910167] CPU0 attaching NULL sched-domain.
+[33569532.910291] devtmpfs: initialized
+[33569532.913321] Grant table initialized
+[33569532.913329] regulator: core version 0.5
+[33569532.913386] NET: Registered protocol family 16
+[33569532.913448]   alloc irq_desc for 506 on node -1
+[33569532.913450]   alloc kstat_irqs on node -1
+[33569532.914073] PCI: setting up Xen PCI frontend stub
+[33569532.914524] bio: create slab <bio-0> at 0
+[33569532.914603] ACPI: Interpreter disabled.
+[33569532.914662] xen_balloon: Initialising balloon driver with page order 0.
+[33569532.914727] vgaarb: loaded
+[33569532.914800] PCI: System does not support PCI
+[33569532.914806] PCI: System does not support PCI
+[33569532.914895] Switching to clocksource xen
+[33569532.916281] pnp: PnP ACPI: disabled
+[33569532.916502] NET: Registered protocol family 2
+[33569532.916660] IP route cache hash table entries: 65536 (order: 7, 524288 bytes)
+[33569532.917604] TCP established hash table entries: 262144 (order: 10, 4194304 bytes)
+[33569532.918902] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+[33569532.919164] TCP: Hash tables configured (established 262144 bind 65536)
+[33569532.919172] TCP reno registered
+[33569532.919279] NET: Registered protocol family 1
+[33569532.919347] Unpacking initramfs...
+[33569532.945556] Freeing initrd memory: 25728k freed
+[33569532.954571] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[33569532.954920] audit: initializing netlink socket (disabled)
+[33569532.954969] type=2000 audit(1367920714.066:1): initialized
+[33569532.958333] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[33569532.960019] VFS: Disk quotas dquot_6.5.2
+[33569532.960074] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[33569532.960158] msgmni has been set to 3322
+[33569532.960349] alg: No test for stdrng (krng)
+[33569532.960408] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[33569532.960417] io scheduler noop registered
+[33569532.960422] io scheduler anticipatory registered
+[33569532.960426] io scheduler deadline registered
+[33569532.960461] io scheduler cfq registered (default)
+[33569532.965202] registering netback
+[33569532.966573]   alloc irq_desc for 505 on node -1
+[33569532.966576]   alloc kstat_irqs on node -1
+[33569532.966835] Linux agpgart interface v0.103
+[33569532.966866] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[33569532.967069] input: Macintosh mouse button emulation as /devices/virtual/input/input0
+[33569532.967117] PNP: No PS/2 controller found. Probing ports directly.
+[33569532.967933] i8042.c: No controller found.
+[33569532.968002] mice: PS/2 mouse device common for all mice
+[33569532.968142] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+[33569532.968196] cpuidle: using governor ladder
+[33569532.968201] cpuidle: using governor menu
+[33569532.968213] No iBFT detected.
+[33569532.968469] TCP cubic registered
+[33569532.968574] NET: Registered protocol family 10
+[33569532.969212] Mobile IPv6
+[33569532.969219] NET: Registered protocol family 17
+[33569532.969300] PM: Resume from disk failed.
+[33569532.969315] registered taskstats version 1
+[33569532.969329] XENBUS: Device with no driver: device/vbd/2048
+[33569532.969333] XENBUS: Device with no driver: device/vbd/2051
+[33569532.969338] XENBUS: Device with no driver: device/vif/0
+[33569532.969342] XENBUS: Device with no driver: device/console/0
+[33569532.969357] /build/buildd-linux-2.6_2.6.32-31-amd64-vrfdM4/linux-2.6-2.6.32/debian/build/source_amd64_xen/drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[33569532.969380] Initalizing network drop monitor service
+[33569532.969451] Freeing unused kernel memory: 604k freed
+[33569532.969705] Write protecting the kernel read-only data: 4332k
+[33569533.003132] udev[46]: starting version 164
+[33569533.071473] Initialising Xen virtual ethernet driver.
+[33569533.071601]   alloc irq_desc for 504 on node -1
+[33569533.071604]   alloc kstat_irqs on node -1
+[33569533.074754]   alloc irq_desc for 503 on node -1
+[33569533.074757]   alloc kstat_irqs on node -1
+[33569533.082544]  xvda: xvda1 xvda2 xvda3
+[33569533.091937]   alloc irq_desc for 502 on node -1
+[33569533.091940]   alloc kstat_irqs on node -1
+[33569533.100324] vbd vbd-2051: 16 xlvbd_add at /local/domain/0/backend/vbd/3633/2051
+[33569533.342088] kjournald starting.  Commit interval 5 seconds
+[33569533.342113] EXT3-fs: mounted filesystem with ordered data mode.
+[33569533.655239] udev[157]: starting version 164
+[33569537.064827] Adding 3020212k swap on /dev/xvda3.  Priority:-1 extents:1 across:3020212k SS
+[33569537.171593] EXT3 FS on xvda2, internal journal
+[33569537.230825] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+[33569537.238558] SGI XFS Quota Management subsystem
+[33569548.622985] eth0: no IPv6 routers present
+[33569712.758231]   alloc irq_desc for 501 on node -1
+[33569712.758234]   alloc kstat_irqs on node -1
+[33569713.788888]  xvdf: xvdf1 xvdf2 xvdf3
+[33569752.918979] EXT4-fs (xvdf1): recovery complete
+[33569752.919788] EXT4-fs (xvdf1): mounted filesystem with ordered data mode
+[33570113.730343] JBD: barrier-based sync failed on xvdf1-8 - disabling barriers
+[33573650.651976]  xvdf: xvdf1 xvdf2 xvdf3
+[33573673.213621] EXT4-fs (xvdf1): mounted filesystem with ordered data mode
+[33573698.738902] JBD: barrier-based sync failed on xvdf1-8 - disabling barriers
+[33577113.663014]  xvdf: xvdf1 xvdf2 xvdf3
+[33577140.813802] EXT4-fs (xvdf1): mounted filesystem with ordered data mode
+[33577152.727452] JBD: barrier-based sync failed on xvdf1-8 - disabling barriers
